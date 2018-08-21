@@ -1,0 +1,364 @@
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #161C23;
+}
+.container-fluid{
+	width: 89%;
+	padding: 0;
+}
+.head{
+	width: 100%;
+	height: 50%;
+	padding: 0;
+	background-color: #252B33;
+}
+.navwidth{
+ width: 100%;
+ height: 100%;
+}
+.headname{
+	line-height:0;
+	padding: 30px 30px 0px 30px;
+	color: white;
+}
+.headname h1{
+	margin: 0;
+
+}
+.headname p{
+	margin-top:5px ;
+	font-size: 10px;
+}
+.anoda{
+	float: right;
+
+}
+.logo{
+	width: 20%;
+	height: 80%;
+	float:left;
+}
+.buttont{
+	float: right;
+}
+.clearfix{
+	margin-top: 50px;
+}
+.nav li{
+	margin-top: 10px;
+}
+.nav1 a{
+	padding:9px 25px;
+	margin-left: 1.5px;
+	background-color:#161C23; 
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 11px;
+	border-bottom: 1px solid silver;
+}
+.nav2 a{
+	margin-right: 25px;
+	color: white;
+	text-decoration: none;
+	font-size: 11px;
+}
+.nav2 a:hover{
+	border-bottom: 2px solid white;}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.content2{
+	height: auto;
+	background-color: white;
+	text-indent: 20px;
+}
+.content2 div{
+	width: 500px;
+	margin:auto;
+}
+/*pla your visit*/
+.tooltip {
+    position: relative;
+    display: inline;
+    opacity: 2;
+
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 1200px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 170%;
+    left: -582%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/*imax*/
+.tooltip .toolimax {
+    visibility: hidden;
+    width: 1200px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 170%;
+    left: -2310%;
+    margin-left: -60px;
+}
+
+.tooltip .toolimax::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 56.5%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.tooltip:hover .toolimax {
+    visibility: visible;
+}
+/*members*/
+.tooltip .toolmemb {
+    visibility: hidden;
+    width: 1200px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 170%;
+    left: -1330%;
+    margin-left: -60px;
+}
+
+.tooltip .toolmemb::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 62%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.tooltip:hover .toolmemb {
+    visibility: visible;
+}
+/*education*/
+.tooltip .tooledu {
+    visibility: hidden;
+    width: 1200px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 170%;
+    left: -1225%;
+    margin-left: -60px;
+}
+
+.tooltip .tooledu::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 68%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.tooltip:hover .tooledu {
+    visibility: visible;
+}
+/*support us*/
+.tooltip .toolsupp {
+    visibility: hidden;
+    width: 1200px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 170%;
+    left: -1305%;
+    margin-left: -60px;
+}
+
+.tooltip .toolsupp::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 76%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.tooltip:hover .toolsupp {
+    visibility: visible;
+}
+/*about us*/
+.tooltip .toolabt {
+    visibility: hidden;
+    width: 1200px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 170%;
+    left: -1763%;
+    margin-left: -60px;
+}
+
+.tooltip .toolabt::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 82%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.tooltip:hover .toolabt {
+    visibility: visible;
+}
+/*tech tag*/
+.tooltip .tooltag {
+    visibility: hidden;
+    width: 1200px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 170%;
+    left: -1375%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltag::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 90%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.tooltip:hover .tooltag {
+    visibility: visible;
+}
+/*logo*/
+.log{
+	box-shadow: 5px 4px 0 1px rgba(0,189,0,.5);
+	position: fixed;
+	top:80%;
+	z-index: 2;
+}
+/*popup*/
+/*#blanket {
+background-color:#111;
+opacity: 0.65;
+*background:none;
+position:absolute;
+z-index: 9001;
+top:50%;
+left:20%;
+width:100%;
+}
+
+#popUpDiv {
+position:absolute;
+background-color: blue;
+width:400px;
+height:400px;
+border:5px solid #000;
+z-index: 9002;
+}*/
+
+/*content3*/
+.content3{
+	width: 100%;
+	height: auto;
+	padding: 0;
+	background-color:#f5f5f5;
+	display:inline-flex;
+}
+.content3 div{
+	width: 100%;
+	margin-top: 10px;
+}
+.content3 div img{
+	width: 100%;
+}
+.foot{
+	width: 100%;
+	height: auto;
+	padding: 0;
+	background-color: #252B33;
+	color: white;
+}
+.foot .foot1{
+	width: 100%;
+}
+.foot .contact{
+	height: auto;
+	width: 300px;
+	margin: auto;
+}
+.right{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	border-top: 2px solid grey;
+}
+.right p{
+	float: left;
+	padding: 35px;
+}
+ul{
+	float: right;
+	padding: 20px 20px 10px 0;
+}
